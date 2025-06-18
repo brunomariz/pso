@@ -5,3 +5,4 @@
 .ipynb_checkpoints/
 __pycache__/
 .__pytest_cache__/
+.venv/
