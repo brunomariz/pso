@@ -1,0 +1,24 @@
+[project]
+name = "pso"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Bruno Mariz",email = "bmarizot@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy (>=2.3.0,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "pso"}]
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
