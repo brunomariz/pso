@@ -11,10 +11,14 @@ Result with uniform random distribution in initial positions:
 ## Installation
 
 ```
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.11
+
 git clone https://github.com/brunomariz/pso.git
 cd pso
 
-python3 -m venv .venv
+python3.11 -m venv .venv
 source .venv/bin/activate
 
 pip install poetry
