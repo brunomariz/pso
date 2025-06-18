@@ -11,7 +11,7 @@ Result with uniform random distribution in initial positions:
 ## Installation
 
 ```
-git clone git@github.com:brunomariz/pso.git
+git clone https://github.com/brunomariz/pso.git
 
 python3 -m venv .venv
 source .venv/bin/activate
