@@ -1,0 +1,7 @@
+*.pyc
+*.sif
+*.h5
+*.hdf5
+.ipynb_checkpoints/
+__pycache__/
+.__pytest_cache__/
