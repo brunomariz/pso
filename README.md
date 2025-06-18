@@ -12,6 +12,7 @@ Result with uniform random distribution in initial positions:
 
 ```
 git clone https://github.com/brunomariz/pso.git
+cd pso
 
 python3 -m venv .venv
 source .venv/bin/activate
